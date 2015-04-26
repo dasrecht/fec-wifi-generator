@@ -2,7 +2,7 @@
 set_time_limit(900);
 
 $token_params = array(
-  'token' => 'XXXXXX',
+  'token' => 'XXXXXX', #Fill with token
   'enddate' => '2013.08.31',
   'submitInfo' => 'submit',
   'firstname' => 'FEC13',
