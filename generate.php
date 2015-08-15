@@ -25,7 +25,7 @@ for ($i = 1; $i <= $_GET['results_number']; $i++) {
   foreach ($token_params as $key => $value) {
     $query[] = $key . '=' . $value;
   }
-  curl_setopt($curl, CURLOPT_URL, 'https://www.uzh.ch/id/cl/iframe/dl/admin/ssl-dir/conference/eventid.php');
+  curl_setopt($curl, CURLOPT_URL, 'https://www.uzh.ch/id/cl/dl/admin/ssl-dir/guestaccounts/index.php/accounts/get?lang=de');
   curl_setopt($curl, CURLOPT_POSTFIELDS, implode('&', $query));
   curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
   $result = curl_exec($curl);
