@@ -1,0 +1,12 @@
+{
+    "name": "bastianwidmer/fec-wifi-generator",
+    "require": {
+        "fabpot/goutte": "^3.1"
+    },
+    "authors": [
+        {
+            "name": "Bastian Widmer",
+            "email": "b.widmer@dasrecht.net"
+        }
+    ]
+}
